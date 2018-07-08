@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A Houston Tour</string>
+
+    <!-- Category name for attraction 1 [CHAR LIMIT=20] -->
+    <string name="attraction_1">Houston</string>
+    <string name="description_1">Welcome to the city of \n Houston, Tx.\nThis is a Tour app for Houston Metro area \nEnjoy!</string>
+
+    <!-- Category name for attraction 2 [CHAR LIMIT=20] -->
+    <string name="attraction_2">Downtown</string>
+    <string name="description_2">Visit Houston Downtown</string>
+
+    <!-- Category name for attraction 3 [CHAR LIMIT=20] -->
+    <string name="attraction_3">Galveston</string>
+    <string name="description_3">Visit the Galveston Island!</string>
+
+    <!-- Category name for attraction 4 [CHAR LIMIT=20] -->
+    <string name="attraction_4">Kemah</string>
+    <string name="description_4">The Kemah Boardwalk</string>
+
+    </resources>
