@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * {@link PlaceAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
  * each list item based on a data source which is a list of atraction information.
  */
-public class PlaceAdapter extends ArrayAdapter <Place>{
+public class PlaceAdapter extends ArrayAdapter<Place> {
 
     public PlaceAdapter(Context context, ArrayList<Place> list) {
         super ( context, 0, list );
@@ -33,16 +33,16 @@ public class PlaceAdapter extends ArrayAdapter <Place>{
 
         Place placeName = getItem ( position );
 
-        ImageView iconView = (ImageView) listItemView.findViewById (R.id.imageView_icon );
+        ImageView iconView = (ImageView) listItemView.findViewById ( R.id.imageView_icon );
         iconView.setImageResource ( placeName.getImageResourceId () );
 
         TextView name = (TextView) listItemView.findViewById ( R.id.place_name );
         name.setText ( placeName.getPlaceName () );
 
         TextView info = (TextView) listItemView.findViewById ( R.id.place_description );
-        info.setText (placeName.getInfo ());
+        info.setText ( placeName.getInfo () );
 
         return listItemView;
     }
 
-    }
+}

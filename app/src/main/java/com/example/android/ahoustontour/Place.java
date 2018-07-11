@@ -37,8 +37,8 @@ public class Place {
     /**
      * Create a a constructor that contain image.
      *
-     * @param name is the name of the place.
-     * @param info is the description of the place
+     * @param name            is the name of the place.
+     * @param info            is the description of the place
      * @param imageResourceId is the drawable resource ID for the image associated with the Place.
      */
     public Place(String name, String info, int imageResourceId) {

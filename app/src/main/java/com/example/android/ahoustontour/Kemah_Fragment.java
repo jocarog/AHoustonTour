@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+//Pictures are my own
 
 /**
  * A simple {@link Fragment} subclass.

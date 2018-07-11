@@ -5,7 +5,7 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-
+//Pictures are my own
 
 /**
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
@@ -13,18 +13,20 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
+    /**
+     * Context of the app
+     */
     private Context mContext;
 
     /**
      * Create a new {@link CategoryAdapter} object.
      *
      * @param context is the context of the app
-     * @param fm is the fragment manager that will keep each fragment's state in the adapter
-     *           across swipes.
+     * @param fm      is the fragment manager that will keep each fragment's state in the adapter
+     *                across swipes.
      */
     public CategoryAdapter(Context context, FragmentManager fm) {
-        super(fm);
+        super ( fm );
         mContext = context;
     }
 
@@ -55,13 +57,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.attraction_1);
+            return mContext.getString ( R.string.attraction_1 );
         } else if (position == 1) {
-            return mContext.getString(R.string.attraction_2);
+            return mContext.getString ( R.string.attraction_2 );
         } else if (position == 2) {
-            return mContext.getString(R.string.attraction_3);
+            return mContext.getString ( R.string.attraction_3 );
         } else {
-            return mContext.getString( R.string.attraction_4);
+            return mContext.getString ( R.string.attraction_4 );
         }
     }
 }

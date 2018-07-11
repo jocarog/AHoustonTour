@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">A Houston Tour</string>
-
+    <!-- Pictures are my own -->
     <!-- Category name for attraction 1 [CHAR LIMIT=20] -->
     <string name="attraction_1">Houston</string>
     <string name="description_1">Alive with energy and rich in diversity, Houston is a dynamic mix of imagination, talent and first-class attractions that makes it a world-class city. Home to a vibrant economy, beautiful surroundings and a population full of optimism and spirit, no wonder that Houston is a popular international destination.</string>

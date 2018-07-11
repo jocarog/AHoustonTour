@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-
+//Pictures are my own
 /**
  * A simple {@link Fragment} subclass that displays the Tour app welcome page
  */
