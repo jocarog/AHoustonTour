@@ -26,9 +26,10 @@ public class PlaceAdapter extends ArrayAdapter <Place>{
 
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
-        if (listItemView == null)
+        if (listItemView == null) {
             listItemView = LayoutInflater.from ( getContext () ).inflate
                     ( R.layout.list_item, parent, false );
+        }
 
         Place placeName = getItem ( position );
 
@@ -39,7 +40,7 @@ public class PlaceAdapter extends ArrayAdapter <Place>{
         name.setText ( placeName.getPlaceName () );
 
         TextView info = (TextView) listItemView.findViewById ( R.id.place_description );
-        info.setText ( info.getPlaceInfo () );
+        info.setText (placeName.getInfo ());
 
         return listItemView;
     }

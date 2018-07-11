@@ -3,18 +3,19 @@
 
     <!-- Category name for attraction 1 [CHAR LIMIT=20] -->
     <string name="attraction_1">Houston</string>
-    <string name="description_1">Welcome to the city of \n Houston, Tx.\nThis is a Tour app for Houston Metro area \nEnjoy!</string>
-
+    <string name="description_1">Alive with energy and rich in diversity, Houston is a dynamic mix of imagination, talent and first-class attractions that makes it a world-class city. Home to a vibrant economy, beautiful surroundings and a population full of optimism and spirit, no wonder that Houston is a popular international destination.</string>
+    <!--// text extracted from http://www.houstontx.gov/abouthouston/index.html -->
     <!-- Category name for attraction 2 [CHAR LIMIT=20] -->
     <string name="attraction_2">Downtown</string>
-    <string name="description_2">Visit Houston Downtown</string>
+    <string name="description_2">Downtown Houston has exploded into a diverse, urban hotspot for young professionals, empty nesters, and everyone in between. Let’s face it. Downtown is alive, offering residents unforgettable experiences along with the work-life balance many inner city explorers yearn for. Whether you’re hanging out at Market Square Park for Blanket Bingo, enjoying cocktails with coworkers after hours, or taking in spectacular skyline views from the comfort of your own couch, there are multiple reasons why Downtown is a great place to call home.</string>
+    <!--//text extracted from https://www.downtownhouston.org/news/article/four-reasons-call-downtown-home/-->
 
     <!-- Category name for attraction 3 [CHAR LIMIT=20] -->
     <string name="attraction_3">Galveston</string>
-    <string name="description_3">Visit the Galveston Island!</string>
-
+    <string name="description_3">Galveston is an island city on the Gulf Coast of Texas, known for Moody Gardens, where giant glass pyramids house sharks, monkeys and other animals. Amusement rides and restaurants line Galveston Island Historic Pleasure Pier on the south shore. West is bird rich Galveston Island State Park, with its trails, kayak launches and fishing spots. Stewart Beach and East Beach are on the eastern end. \nWeather: 83°F (28°C), Wind S at 7 mph (11 km/h), 82% Humidity \nZIP codes: 77550 through 77555 \n Population: 50,550 (2016)</string>
+    <!--//text from https://www.google.com/search?q=Galveston&ie=utf-8&oe=utf-8&client=firefox-b-1- -->
     <!-- Category name for attraction 4 [CHAR LIMIT=20] -->
     <string name="attraction_4">Kemah</string>
-    <string name="description_4">The Kemah Boardwalk</string>
-
-    </resources>
+    <string name="description_4">Imagine a getaway for the entire family! The Kemah Boardwalk is open daily providing fun for everyone! Located just 20 miles from downtown Houston, the Kemah Boardwalk is home to fabulous waterfront restaurants, amusements, charming retail stores, festivals and seaside shows every day.</string>
+    <!--text extracted from http://www.kemahboardwalk.com/visitor-info.asp -->
+</resources>

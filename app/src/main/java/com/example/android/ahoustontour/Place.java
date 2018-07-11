@@ -57,7 +57,7 @@ public class Place {
     /**
      * Get the address of that place.
      */
-    public String getPlaceInfo() {
+    public String getInfo() {
         return this.info;
     }
 
